@@ -1,23 +1,12 @@
 {
-  "name": "ccmcontimaker",
+  "name": "ccm-melody-parser",
   "version": "1.0.0",
-  "description": "찬양 인도자 및 반주자를 위한 CCM 악보 검색, 뷰어 및 콘티(Setlist) 제작 웹 서비스",
-  "main": "index.js",
+  "description": "CCM 악보 AI 파싱 도구 - Claude Vision으로 악보 사진을 JSON 멜로디로 변환",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "parse": "node parse-melody.mjs",
+    "pipeline": "node pipeline.mjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cuki288/ccmcontimaker.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/cuki288/ccmcontimaker/issues"
-  },
-  "homepage": "https://github.com/cuki288/ccmcontimaker#readme",
   "dependencies": {
     "mysql2": "^3.19.1",
     "puppeteer-core": "^24.39.1"

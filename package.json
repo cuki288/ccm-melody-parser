@@ -1,0 +1,12 @@
+{
+  "name": "ccm-melody-parser",
+  "version": "1.0.0",
+  "description": "CCM 악보 AI 파싱 도구 - Claude API를 사용하여 코드+가사 텍스트를 JSON 멜로디 데이터로 변환",
+  "type": "module",
+  "scripts": {
+    "parse": "node parse-melody.mjs"
+  },
+  "dependencies": {
+    "mysql2": "^3.14.1"
+  }
+}
